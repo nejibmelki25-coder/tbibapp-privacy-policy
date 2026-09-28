@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TbibApp Privacy Policy</title>
+<style>
+:root{--bg:#fff;--fg:#1d2630;--muted:#5b6673;--accent:#0b7a75;--line:#dde3e8;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12181e;--fg:#e6ebef;--muted:#9aa6b2;--accent:#4fd1c5;--line:#2a343e}}
+:root[data-theme="dark"]{--bg:#12181e;--fg:#e6ebef;--muted:#9aa6b2;--accent:#4fd1c5;--line:#2a343e}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 20px 64px}
+h1{font-size:1.8rem;margin:.2em 0}
+h2{font-size:1.2rem;margin:2em 0 .4em;color:var(--accent);border-top:1px solid var(--line);padding-top:1em}
+p,li{margin:.5em 0}
+.meta{color:var(--muted);font-size:.95rem}
+.table{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:color-mix(in srgb,var(--accent) 10%,transparent)}
+</style>
+</head>
+<body>
+<main>
+<h1>TbibApp Privacy Policy</h1>
+<p class="meta">Effective date: September 28, 2026</p>
+
+<p>TbibApp is a patient app for the medical practice of <strong>Dr Alaeddine Jebali</strong> (the "Clinic"). It lets you check in at the clinic, follow your queue ticket, receive documents and messages from the clinic, and send documents and messages to it. This policy explains what information the app handles, why, and what choices you have. The Clinic is responsible for the data described here.</p>
+
+<h2>1. Information the app handles</h2>
+<div class="table">
+<table>
+<tr><th>Information</th><th>Why</th></tr>
+<tr><td>Identity and contact details you enter in a profile: first and last name, date of birth, phone number, address, gender, blood group</td><td>So the clinic can identify you and open or match your medical file at check-in.</td></tr>
+<tr><td>Health insurance (CNAM) details: fund, insurance number, national ID (CIN), status, dependants, family doctor, validity dates. You may type them or scan your CNAM carnet.</td><td>To prepare insurance paperwork. A person at the clinic reviews these before anything is filed.</td></tr>
+<tr><td>Documents and photos you choose to upload (for example prescriptions or lab results), and pictures taken with the camera for scanning</td><td>To add them to your medical file at the clinic.</td></tr>
+<tr><td>Messages you send to the clinic and messages the clinic sends you</td><td>Communication between you and the clinic.</td></tr>
+<tr><td>Push notification token and a profile identifier</td><td>To deliver notifications such as "it is your turn", calls to the consulting room, results, and messages.</td></tr>
+<tr><td>Check-in and queue data (ticket number, position, visit status)</td><td>To run the waiting queue.</td></tr>
+</table>
+</div>
+<p>The app does not use advertising, does not include analytics or tracking SDKs, and does not access your location or contacts. We do not sell your data.</p>
+
+<h2>2. How the information is used</h2>
+<p>Your information is used only to provide the services above: checking you in, managing your queue ticket, filing documents you send into your record, sending you notifications and messages, and reviewing insurance details. It is not used for advertising or profiling.</p>
+
+<h2>3. Camera, photos and files</h2>
+<p>The app asks for camera access to scan the check-in QR code, to photograph documents, and to scan your CNAM carnet. Text on a carnet is read <strong>on your device</strong> using Google ML Kit text recognition; the image is not sent to Google for this. You can also pick files or photos from your device. Access is used only when you start one of these actions.</p>
+
+<h2>4. How your data is sent and protected</h2>
+<ul>
+<li><strong>Google Firebase.</strong> The app communicates with the clinic through Google Firebase (Cloud Firestore for check-in and requests, Firebase Cloud Messaging for notifications). Google acts as a service provider hosting this traffic.</li>
+<li><strong>Encryption.</strong> Documents you upload and messages you send are packaged and encrypted on your phone with the clinic's public key before they leave your device, so that only the clinic can open them. Documents and messages the clinic sends you are encrypted to a key held on your phone.</li>
+<li><strong>On your device.</strong> Your profiles, tickets and received documents are stored on your phone. The private encryption key of each profile is kept in the platform secure store (Android Keystore-backed storage or the iOS Keychain) and is never transmitted.</li>
+<li><strong>Retention on the server.</strong> Temporary upload requests and files are removed by the clinic's system once they have been filed in your record.</li>
+</ul>
+<p>No system is perfectly secure, but we take reasonable measures to protect your data.</p>
+
+<h2>5. Who receives your data</h2>
+<p>Your data is received by the Clinic and its staff. It is not shared with advertisers or data brokers. The "Rate your visit" feature opens Google's own review form in your browser; anything you submit there is governed by Google's privacy policy. Data may be disclosed if required by law.</p>
+
+<h2>6. Who can use the app; children</h2>
+<p>One phone can hold several profiles, for example a parent registering their children or a carer registering a relative. If you create a profile for another person, you confirm that you are entitled to do so. The app is not directed at children acting on their own.</p>
+
+<h2>7. Your choices and rights</h2>
+<ul>
+<li><strong>Edit or delete a profile.</strong> You can edit or delete any profile in the app's Profile screen. Deleting it removes that profile's data and its encryption key from your phone. Uninstalling the app removes all locally stored data.</li>
+<li><strong>Notifications and permissions.</strong> You can turn these off at any time in your phone's settings; some features will then stop working.</li>
+<li><strong>Your medical record.</strong> Information already filed in your medical file at the clinic is part of the clinic's medical records and is kept according to Tunisian medical record rules. You may ask the clinic to access or correct your data, or to delete data where the law allows.</li>
+</ul>
+<p>Under Tunisian law on the protection of personal data (Organic Law No. 2004-63) you have rights of access, rectification and objection, and you may contact the national data protection authority (INPDP).</p>
+
+<h2>8. Languages and changes</h2>
+<p>The app is available in English, French and Arabic. This policy may be updated; the effective date above will change when it is. Material changes will be communicated in the app or through the clinic.</p>
+
+<h2>9. Contact</h2>
+<p>Dr Alaeddine Jebali<br>
+Email: <strong>[your contact email]</strong><br>
+Address: <strong>[clinic address, Tunisia]</strong></p>
+</main>
+</body>
+</html>
